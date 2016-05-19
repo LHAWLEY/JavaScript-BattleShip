@@ -1,0 +1,56 @@
+body {
+  overflow: hidden;
+}
+
+.title {
+  font-size: 50px;
+  color: #3D3D3D;
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.button {
+  width: 100px;
+  border-radius: 5px;
+  color: #666;
+  background-color: #eee;
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.board_title {
+  font-size: 20px;
+  text-align: center;
+  margin: 15px 0 5px;
+  color: #3D3D3D;
+}
+
+.board {
+  width: 170px;
+  height: 170px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  float: left;
+  background-color: #D3D3D3;
+  margin: 1px;
+  text-align: center;
+}
+
+.ship { background-color: red  }
+.hit  { background-color: blue }
+
+.miss:after {
+  content: 'X';
+  line-height: 40px;
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+}
